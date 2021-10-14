@@ -10,3 +10,4 @@ Triple Equal Dotfiles
 - Trackpad Pref
 - .zshrc file
 - Git config and ssh
+- Homebrew Install
