@@ -2,6 +2,7 @@ echo Hello Bob, Lets get started!
 
 # Set Variables
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASK_OPTs="--no-quarantine"
 
 # Change ZSH Options
 

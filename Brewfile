@@ -5,10 +5,14 @@ tap "homebrew/core"
 
 # Brews (Packages)
 brew "bat"
-brew "httpie"
 brew "exa"
+brew "git"
+brew "httpie"
 
 # Casks (Applications)
 cask "alfred"
-cask "visual-studio-code"
 cask "dropbox"
+cask "firefox"
+# cask "gitkraken"
+cask "google-chrome"
+cask "visual-studio-code"
