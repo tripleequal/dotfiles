@@ -5,13 +5,15 @@
 - clean: ['~']
 
 - link:
-   # ~/.vim: vim
     ~/.zshrc:
     ~/.gitconfig:
 
 - create:
-    - ~/downloads
-    - ~/.vim/undo-history
+    - ~/.nvm
+    - ~/Code
 
 - shell:
+    - command: ./scripts/setup_homebrew.zsh
+      stdout: true
+      stderr: true
 #  - [git submodule update --init --recursive, Installing submodules]
