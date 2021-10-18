@@ -1,6 +1,9 @@
 # dotfiles
 Triple Equal Dotfiles
 
+##Install
+run ./install from the dotbot dir.
+
 ##TODO
 - Terminal Prefs
 - Shell to ZSH

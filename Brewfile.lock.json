@@ -5,10 +5,13 @@
         "revision": "3b280b116f481e3d596789b7ee93cb4cf5ad23b4"
       },
       "homebrew/cask": {
-        "revision": "461d383dd3e49f89eab3cbfff4e5d4bfd11a16e5"
+        "revision": "9b71ce2807982a14a23eecb78a85a436bec9a8cd"
       },
       "homebrew/core": {
-        "revision": "df02ca2c7b3e4f55f0ed9abc02bf3e8c24dcc126"
+        "revision": "f2e9362b0d4d7492635cd3597f71a282d4777b04"
+      },
+      "eth-p/software": {
+        "revision": "13f36b9fac6da51f4b0290ba68c5b02a723c64b0"
       }
     },
     "brew": {
@@ -147,11 +150,39 @@
             }
           }
         }
+      },
+      "mas": {
+        "version": "1.8.3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:6498917d8d2106fa582aa0fd0714cd87ad7d091023c7b3c6b2db3a6051a2fb5b",
+              "sha256": "6498917d8d2106fa582aa0fd0714cd87ad7d091023c7b3c6b2db3a6051a2fb5b"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:0116c8f800780c890dc819ff3479640f3b33ef235af9fe0bc7a53202b35c9b82",
+              "sha256": "0116c8f800780c890dc819ff3479640f3b33ef235af9fe0bc7a53202b35c9b82"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mas/blobs/sha256:015c0e53aee08c429ff468fc2a9c8b0bc973df084c0e6366d92905714f20248b",
+              "sha256": "015c0e53aee08c429ff468fc2a9c8b0bc973df084c0e6366d92905714f20248b"
+            }
+          }
+        }
+      },
+      "eth-p/software/bat-extras": {
+        "version": "2021.04.06",
+        "bottle": false
       }
     },
     "cask": {
       "alfred": {
-        "version": "4.5.1,1256",
+        "version": "4.6,1266",
         "options": {
           "full_name": "alfred"
         }
@@ -180,6 +211,20 @@
           "full_name": "google-chrome"
         }
       }
+    },
+    "mas": {
+      "Kiwi for Gmail": {
+        "id": "986304488",
+        "version": "2.0.40"
+      },
+      "Sequel Ace": {
+        "id": "1518036000",
+        "version": "3.4.1"
+      },
+      "Slack": {
+        "id": "803453959",
+        "version": "4.20.0"
+      }
     }
   },
   "system": {
@@ -187,7 +232,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.16",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "df02ca2c7b3e4f55f0ed9abc02bf3e8c24dcc126",
+        "Homebrew/homebrew-core": "f2e9362b0d4d7492635cd3597f71a282d4777b04",
         "CLT": "13.0.0.0.1.1630607135",
         "Xcode": "13.0",
         "macOS": "11.6"
