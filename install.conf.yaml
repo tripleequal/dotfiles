@@ -6,6 +6,7 @@
 
 - link:
     ~/.zshrc:
+    ~/.zshenv:
     ~/.gitconfig:
     ~/.config/bat:
         create: true
@@ -19,4 +20,3 @@
     - command: ./scripts/setup_homebrew.zsh
       stdout: true
       stderr: true
-#  - [git submodule update --init --recursive, Installing submodules]
