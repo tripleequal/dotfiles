@@ -4,8 +4,8 @@ echo "\n<<< Setup Node >>>\n"
 
 # Node is managed with N, a package simialr to nvm
 
-if exists node; then
-  echo "Node $(node --version) and NPM $(npm --version) already installed"
+if exists $N_PREFIX/bin/node; then
+  echo "Node $($N_PREFIX/bin/node --version) and NPM $($N_PREFIX/bin/npm --version) already installed with N"
 else
   echo 'Install Node and NPM with "n"'
   n 8
@@ -27,4 +27,7 @@ npm install --global json-server
 npm install --global http-server
 npm install --global ember-cli
 npm install --global trash-cli
+
+echo 'Global packages installed'
+npm list --global --depth=0
 

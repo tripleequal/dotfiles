@@ -2,6 +2,10 @@ tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# The fastest shell plugin manager
+brew "antibody"
+# Keep your Mac's application settings in sync
+brew "mackup"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -18,8 +22,6 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# JavaScript package manager
-brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
@@ -30,6 +32,8 @@ cask "alfred"
 cask "dropbox"
 # Web browser
 cask "firefox"
+cask "hyper"
+cask "zoomus"
 # Web browser
 cask "google-chrome"
 # Open-source code editor
@@ -37,6 +41,7 @@ cask "visual-studio-code"
 # cask "gitkraken"
 # cask "jetbrains-toolbox"
 
+mas "Xcode", id: 497799835
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
