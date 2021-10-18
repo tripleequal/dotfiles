@@ -2,8 +2,17 @@
 
 echo "\n<<< Setup Fresh ZSH >>>\n"
 
-echo 'SUDO for updating default shell'
-echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
+if grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
+  echo "Homebrew ZSH already added to /etc/shells"
+else
+  echo 'SUDO for updating default shell'
+  echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
+fi
 
-echo 'Enter password to change login shell'
-chsh -s '/usr/local/bin/zsh'
+if [ "$SHELL" =  '/usr/local/bin/zsh' ]; then
+  echo "Homebrew ZSH already set"
+else
+  echo 'Enter password to change login shell'
+  chsh -s '/usr/local/bin/zsh'
+fi
+
