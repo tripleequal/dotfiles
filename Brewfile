@@ -14,6 +14,8 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # UNIX shell (command interpreter)
@@ -33,6 +35,11 @@ cask "visual-studio-code"
 # cask "gitkraken"
 # cask "jetbrains-toolbox"
 
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
 mas "Kiwi for Gmail", id: 986304488
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959

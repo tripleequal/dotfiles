@@ -3,6 +3,8 @@ echo Hello Bob, Lets get started!
 # Set Variables
 export HOMEBREW_CASK_OPTs="--no-quarantine"
 export NULLCMD=bat
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 
@@ -24,6 +26,7 @@ RPROMPT='%W %t'
 
 # Add Locations to $PATH Variable
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:/$N_PREFIX/bin"
 
 # Functions
 function mkcd() {
