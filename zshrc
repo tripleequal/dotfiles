@@ -24,9 +24,18 @@ alias bbd='brew bundle dump --force --describe'
 PROMPT='%1~ %L %# '
 RPROMPT='%W %t'
 
-# Add Locations to $PATH Variable
-export PATH="/$N_PREFIX/bin:$PATH"
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Add Locations to $path array
+
+# Old Syntax
+# export PATH="/$N_PREFIX/bin:$PATH"
+# export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+typeset -U path
+path=(
+  "/$N_PREFIX/bin"
+  $path
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 # Functions
 function mkcd() {
