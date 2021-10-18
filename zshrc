@@ -36,10 +36,12 @@ alias rs=trash
 alias bbd='brew bundle dump --force --describe'
 
 # Customize Prompt(s)
+# https://github.com/spaceship-prompt/spaceship-prompt
 source "$DOTFILES/spaceship_shlvl.zsh"
 
 SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_TIME_SHOW=true
+SPACESHIP_TIME_12HR=true
 SPACESHIP_EXEC_TIME_ELAPSED=0
 SPACESHIP_BATTERY_SHOW=always
 SPACESHIP_EXIT_CODE_SHOW=true

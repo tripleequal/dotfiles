@@ -44,12 +44,7 @@ cask "zoom"
 cask "gitkraken"
 cask "jetbrains-toolbox"
 
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
 mas "Kiwi for Gmail", id: 986304488
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
