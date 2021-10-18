@@ -1,11 +1,10 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
-# The fastest shell plugin manager
+# Shell plugin manager
 brew "antibody"
-# Keep your Mac's application settings in sync
-brew "mackup"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -16,6 +15,8 @@ brew "git"
 brew "httpie"
 # Pager program similar to more
 brew "less"
+# Keep your Mac's application settings in sync
+brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
 # Node version management
@@ -32,16 +33,17 @@ cask "alfred"
 cask "dropbox"
 # Web browser
 cask "firefox"
-cask "hyper"
-cask "zoomus"
 # Web browser
 cask "google-chrome"
+# Terminal built on web technologies
+cask "hyper"
 # Open-source code editor
 cask "visual-studio-code"
-# cask "gitkraken"
-# cask "jetbrains-toolbox"
+# Video communication and virtual meeting platform
+cask "zoom"
+cask "gitkraken"
+cask "jetbrains-toolbox"
 
-mas "Xcode", id: 497799835
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
@@ -50,3 +52,4 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
+mas "Xcode", id: 497799835
