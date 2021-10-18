@@ -17,6 +17,9 @@
     - ~/Code
 
 - shell:
+    - command: ./scripts/setup_finder.zsh
+      stdout: true
+      stderr: true
     - command: ./scripts/setup_homebrew.zsh
       stdout: true
       stderr: true
