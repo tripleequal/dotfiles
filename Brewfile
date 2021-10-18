@@ -16,6 +16,8 @@ brew "less"
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
@@ -28,8 +30,8 @@ cask "firefox"
 cask "google-chrome"
 # Open-source code editor
 cask "visual-studio-code"
-cask "gitkraken"
-cask "jetbrains-toolbox"
+# cask "gitkraken"
+# cask "jetbrains-toolbox"
 
 mas "Kiwi for Gmail", id: 986304488
 mas "Sequel Ace", id: 1518036000
