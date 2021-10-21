@@ -17,6 +17,11 @@ defaults write com.apple.dock autohide-delay -float 0.1
 # System Preferences > Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options > Enable Dragging > Three Finger Drag (NOTE: The GUI doesn't update)
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 
+# System Preferences > Mission Control
+defaults write com.apple.dock.plist wvous-tr-corner -int 2
+defaults write com.apple.dock.plist wvous-br-corner -int 3
+defaults write com.apple.dock.plist wvous-bl-corner -int 4
+
 # Finish macOS Setup
 killall Finder
 killall Dock

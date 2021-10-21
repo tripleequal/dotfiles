@@ -23,6 +23,8 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Ruby version manager
+brew "rbenv"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
@@ -41,10 +43,9 @@ cask "hyper"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-cask "gitkraken"
-cask "jetbrains-toolbox"
+# cask "gitkraken"
+# cask "jetbrains-toolbox"
 
-mas "Kiwi for Gmail", id: 986304488
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
