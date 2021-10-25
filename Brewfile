@@ -49,3 +49,4 @@ cask "zoom"
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
+mas "Transmit 5", id: 1436522307

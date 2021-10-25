@@ -19,15 +19,15 @@ fi
 
 echo 'Install Global Node Packages'
 
-# npm install --global firebase-tools
-# npm install --global @angular/cli
-  npm install --global nx
-# npm install --global @ionic/cli
-# npm install --global typescript
-# npm install --global json-server
-# npm install --global http-server
-# npm install --global ember-cli
-# npm install --global trash-cli
+npm install --global firebase-tools
+npm install --global @angular/cli
+npm install --global nx
+npm install --global @ionic/cli
+npm install --global typescript
+npm install --global json-server
+npm install --global http-server
+npm install --global ember-cli
+npm install --global trash-cli
 
 echo 'Global packages installed'
 npm list --global --depth=0
