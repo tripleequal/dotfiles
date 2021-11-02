@@ -28,13 +28,14 @@ brew "n"
 brew "nano"
 # Platform built on V8 to build network applications
 brew "node"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Ruby version manager
 brew "rbenv"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-
 # Application launcher and productivity software
 cask "alfred"
 # Developer platform
@@ -47,6 +48,8 @@ cask "firefox"
 cask "google-chrome"
 # Terminal built on web technologies
 cask "hyper"
+# Command-line shell and scripting language
+cask "powershell"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
@@ -67,8 +70,3 @@ mas "Pages", id: 409201541
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
-
-
-# cask "gitkraken"
-# cask "jetbrains-toolbox"
-# mas "Transmit 5", id: 1436522307
