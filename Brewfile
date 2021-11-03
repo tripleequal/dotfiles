@@ -56,6 +56,7 @@ cask "visual-studio-code"
 cask "zoom"
 
 mas "GarageBand", id: 682658836
+mas "iHosts", id: 1102004240
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kiwi for Gmail", id: 986304488
