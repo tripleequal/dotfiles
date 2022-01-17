@@ -44,6 +44,8 @@ cask "dotnet"
 cask "dropbox"
 # Web browser
 cask "firefox"
+# Jetbrains Font
+cask "font-jetbrains-mono"
 # Web browser
 cask "google-chrome"
 # Terminal built on web technologies
@@ -55,19 +57,29 @@ cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 
-mas "GarageBand", id: 682658836
 mas "iHosts", id: 1102004240
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kiwi for Gmail", id: 986304488
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
-mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
-mas "Pages", id: 409201541
+mas "CleanMyMac X", id: 1339170533
+mas "1Password 7 - Password Manager", id: 1333542190
+mas "Vectornator: Design Software", id: 1219074514
+mas "Affinity Photo", id: 824183456
+mas "Affinity Designer", id: 824171161
+mas "Logic Pro", id: 634148309,
+mas "Final Cut Pro", id: 424389933
+mas "Transmit 5", id: 1436522307
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
+mas "Spark", id: 1176895641
+
+# mas "GarageBand", id: 682658836
+# mas "iMovie", id: 408981434
+# mas "Keynote", id: 409183694
+# mas "Kiwi for Gmail", id: 986304488
+# mas "Microsoft Excel", id: 462058435
+# mas "Microsoft OneNote", id: 784801555
+# mas "Microsoft Outlook", id: 985367838
+# mas "Microsoft PowerPoint", id: 462062816
+# mas "Microsoft Word", id: 462054704
+# mas "Numbers", id: 409203825
+# mas "OneDrive", id: 823766827
+# mas "Pages", id: 409201541

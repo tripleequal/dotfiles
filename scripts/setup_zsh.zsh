@@ -16,3 +16,5 @@ else
   chsh -s '/usr/local/bin/zsh'
 fi
 
+echo "\n<<< Setup Rosetta for M1 >>>\n"
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
